@@ -6,7 +6,7 @@
     }
   },
   "env": {
-    "WP_ENDPOINT": "https://YOUR-WP-SITE.COM/wp-json/hjse/v1/push?token=YOUR_SECRET"
+    "WP_ENDPOINT": "https://homejobsearchengine.com/wp-json/hjse/v1/push?token=z1bPxHx6RJ58JTI8764k5gzJ"
   },
   "crons": [
     {
