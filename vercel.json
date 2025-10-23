@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "functions": {
+    "api/push.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "env": {
+    "WP_ENDPOINT": "https://YOUR-WP-SITE.COM/wp-json/hjse/v1/push?token=YOUR_SECRET"
+  },
+  "crons": [
+    {
+      "path": "/api/push",
+      "schedule": "0 * * * *"
+    }
+  ]
+}
